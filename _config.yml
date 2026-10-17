@@ -1,0 +1,20 @@
+title: Rashad's Notes
+description: Thoughts on tech, life, and learning
+url: "https://mwibrahim.github.io"
+baseurl: ""
+
+theme: minima
+minima:
+  skin: auto
+  social_links:
+    - { platform: linkedin, user_url: "https://www.linkedin.com/in/mwibrahim" }
+    - { platform: github,   user_url: "https://github.com/mwibrahim" }
+
+# Top navigation links
+header_pages:
+  - about.md
+
+show_excerpts: true
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
